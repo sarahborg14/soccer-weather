@@ -5,6 +5,8 @@ git congif --global --edit (opens file to specify username and email)
 
 
 
+
+
 clone a repository: 
 
 This allows you to create a local copy of a GitHub
