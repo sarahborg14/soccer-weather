@@ -14,6 +14,8 @@ git status (will also show current branch)
 
 git branch <branch name> (creates new branch) 
 
+git branch -d <branch name> (deletes branch - good to do when done with it)
+
 get checkout <branch name> (switches to another branch) 
 	i.e. get checkout main (switches back to master branch) 
 
