@@ -1,0 +1,33 @@
+notes on git 
+
+
+clone a repository: 
+
+This allows you to create a local copy of a GitHub
+repository and sync between the two locations. 
+Source: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+git remote -v (to check if the origin is the remote repository) 
+	if this doesn't work, try git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+
+git fetch upstream (or just "git fetch" will sync the local repositoty with original (upstream)
+
+git merge (merges the two for changes) 
+
+git push (pushes local changes to the remote repo) 
+
+
+1. git add <filename> (must use to add a file to staging before commit) 
+	can also use git rm <filename>
+2. git status (shows you what is staged for commit)
+3. git commit -m 'note here' (to commit the change to the repo)
+4. git push (pushes changes to remote repo - will ask for log in info) 
+5. git fetch (brings down changes from remote repo, DOES NOT MERGE)
+6. git merge  (merges changes brought down with local repo) 
+
+
+
+
+	
