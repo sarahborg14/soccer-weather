@@ -40,6 +40,8 @@ git fetch upstream (or just "git fetch" will sync the local repositoty with orig
 
 git merge (merges the two for changes) 
 
+git pull (essentially a git fetch immediately followed by git merge *in most cases*)
+
 git push (pushes local changes to the remote repo) 
 
 
