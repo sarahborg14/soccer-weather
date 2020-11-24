@@ -6,6 +6,9 @@ notes on git
 
 git congif --global --edit (opens file to specify username and email)
 
+git config --global --credential.helper cache (saves credentials so you don't 
+	have to enter them every time you push) 
+
 
 git log (shows log of commit history)
 
