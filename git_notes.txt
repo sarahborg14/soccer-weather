@@ -1,3 +1,6 @@
+adding in testing branch
+
+
 notes on git 
 
 git congif --global --edit (opens file to specify username and email)
