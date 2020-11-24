@@ -1,5 +1,9 @@
 notes on git 
 
+git congif --global --edit (opens file to specify username and email)
+
+
+
 
 clone a repository: 
 
