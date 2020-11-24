@@ -3,7 +3,15 @@ notes on git
 git congif --global --edit (opens file to specify username and email)
 
 
+git log (shows log of commit history)
 
+
+git log --oneline --decorate (shows one-liner summaries of commits, also shows 
+HEAD --> main, to show which branch you are in)
+
+git branch <branch name> (creates new branch) 
+
+get checkout <branch name> (switches to another branch) 
 
 
 
