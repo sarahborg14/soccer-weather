@@ -45,7 +45,7 @@ import cdsapi
 c = cdsapi.Client()
 c.retrieve('reanalysis-era5-complete', {
     'class': 'ea',
-    'date': '2018-09-01/to/2018-09-30',
+    'date': '2018-09-01/2018-09-30/', #I think I can connect dates in this way? 
     'expver': '1',
     'levtype': 'sfc',
     'param': '134.128/165.128/166.128/167.128/168.128',
